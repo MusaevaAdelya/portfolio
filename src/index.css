@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-base-light: #FEF9E2;
+
+  --color-light-100: #FEDFCD;
+  --color-light-150:#fedfcd;
+  --color-light-200: #FFD0A9;
+  --color-light-300: #FFC49E;
+  --color-light-350: #F9B694;
+  --color-light-400: #FAC78E;
+  --color-light-450: #FFC1A7;
+  --color-light-500:#FF977B;
+  --color-light-600:#F2A888;
+
+  --color-dark-100: #DF9471;
+  --color-dark-500: #601B12;
+  --color-dark-600:#682D1B;
+  --color-dark-700:#5f100a;
+
+  --color-accent: #C10201;
+  --color-accent-bright:#E44035;
+  --color-secondary:#F8D888;
+  --color-secondary-100:#EB7D4F;
+  --color-secondary-200:#DD7244;
+
+  --color-tertiary:#EB7D4F;
+
+  --color-light-font-100:#FFD3BC;
+
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 1024px; /* 👈 md раньше */
+  --breakpoint-lg: 1300px;
+  --breakpoint-xl: 1480px;
+  --breakpoint-2xl: 1536px; 
+  
+}
+
+
+body {
+  font-family: "Anonymous Pro", monospace;
+  background-color: #FEF9E2;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
