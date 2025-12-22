@@ -15,11 +15,11 @@ function Home() {
         <section id="home" className="bg-light-200/60 relative rounded-2xl lg:rounded-[50px] overflow-hidden border-dashed border-2 border-dark-500 pt-5 lg:pt-7 px-5 lg:px-30 pb-5 lg:pb-15 mb-10">
             <Header />
             <div className="flex justify-between gap-10 items-center lg:gap-0 lg:justify-around min-h-40 mt-10 flex-col lg:flex-row">
-                <div className="relative isolate" data-aos="fade-right">
-                    <div className="pointer-events-none absolute inset-0 -z-10 blur-[150px]">
+                <div className="relative" data-aos="fade-right">
+                    <div className="pointer-events-none absolute inset-0 z-0 blur-[150px]">
                         <div className="absolute h-150 w-150 -ml-15 -mt-17 lg:-ml-25 rounded-full bg-accent-bright" />
                     </div>
-                    <div className="text-center lg:text-left">
+                    <div className="relative z-10 text-center lg:text-left">
                         <div className="space-y-2 lg:space-y-4">
                             <p className="text-light-300 font-bold text-2xl lg:text-2xl">Software Developer</p>
                             <p className="text-dark-700 font-bold text-5xl lg:text-6xl leading-12 lg:leading-17"><span className="text-light-300">Hello I'm</span> <br />Adelya <br /> Musaeva</p>
