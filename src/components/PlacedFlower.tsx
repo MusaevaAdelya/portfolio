@@ -1,26 +1,15 @@
 import React from "react";
-import { Flower } from "./Flower";
 
 export type PlacedFlowerProps = {
-  /** Позиция: можно задавать top/left/right/bottom как "20%" или "100px" */
   top?: string;
   left?: string;
   right?: string;
   bottom?: string;
 
-  /** Размер цветка: число (px) или строка ("10rem", "150px") */
   size?: number | string;
-
-  /** Поворот в градусах */
   rotation?: number;
-
-  /** Прозрачность (0–1) */
   opacity?: number;
-
-  /** Доп. классы Tailwind */
   className?: string;
-
-  /** z-index, если нужно */
   zIndex?: number;
 
   children?: React.ReactNode;
