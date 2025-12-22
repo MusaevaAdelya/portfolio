@@ -16,8 +16,8 @@ function Home() {
             <Header />
             <div className="flex justify-between gap-10 items-center lg:gap-0 lg:justify-around min-h-40 mt-10 flex-col lg:flex-row">
                 <div className="relative" data-aos="fade-right">
-                    <div className="pointer-events-none absolute inset-0 z-0 blur-[150px]">
-                        <div className="absolute h-150 w-150 -ml-15 -mt-17 lg:-ml-25 rounded-full bg-accent-bright" />
+                    <div className="pointer-events-none absolute inset-0 z-0 blur-[60px] transform translate-z-0">
+                        <div className="absolute h-150 w-150 -ml-15 -mt-17 lg:-ml-25 rounded-full bg-accent-bright  transform translate-z-0" />
                     </div>
                     <div className="relative z-10 text-center lg:text-left">
                         <div className="space-y-2 lg:space-y-4">

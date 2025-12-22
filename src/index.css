@@ -56,3 +56,10 @@ body {
 .animate-float {
   animation: float 4s ease-in-out infinite;
 }
+
+[class*="blur-"] {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
