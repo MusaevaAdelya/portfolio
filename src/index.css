@@ -31,7 +31,7 @@
 
 
   --breakpoint-sm: 640px;
-  --breakpoint-md: 1024px; /* 👈 md раньше */
+  --breakpoint-md: 1024px;
   --breakpoint-lg: 1300px;
   --breakpoint-xl: 1480px;
   --breakpoint-2xl: 1536px; 

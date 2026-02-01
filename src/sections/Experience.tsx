@@ -58,7 +58,7 @@ function Experience() {
                         </div>
 
                         <div className="lg:flex items-center justify-center hidden" data-aos="fade-right">
-                            <span className="uppercase text-accent font-bold text-3xl">september 2025 - januar 2026</span>
+                            <span className="uppercase text-accent font-bold text-3xl">september 2025 - january 2026</span>
                         </div>
                         <div className="lg:flex items-center justify-center z-20 hidden" data-aos="zoom-in">
                             <FlowerRed />

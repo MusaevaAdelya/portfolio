@@ -34,12 +34,14 @@ function Skills() {
           <div data-aos="fade-up" data-aos-delay="200"><Skill title="SCSS" img="skills-scss.svg" /></div>
           <div data-aos="fade-up" data-aos-delay="250"><Skill title="React" img="skills-react.svg" /></div>
           <div data-aos="fade-up" data-aos-delay="300"><Skill title="Redux" img="skills-redux.svg" /></div>
+          <div data-aos="fade-up" data-aos-delay="300"><Skill title="Angular" img="skills-angular.svg" /></div>
           <div data-aos="fade-up" data-aos-delay="350"><Skill title="Tailwind" img="skills-tailwind.svg" /></div>
           <div data-aos="fade-up" data-aos-delay="400"><Skill title="NestJS" img="skills-nestjs.svg" /></div>
           <div data-aos="fade-up" data-aos-delay="450"><Skill title="Java" img="skills-java.svg" /></div>
           <div data-aos="fade-up" data-aos-delay="500"><Skill title="Spring Boot" img="skills-spring-boot.svg" /></div>
           <div data-aos="fade-up" data-aos-delay="550"><Skill title="PostgreSQL" img="skills-postgres.svg" /></div>
           <div data-aos="fade-up" data-aos-delay="600"><Skill title="Supabase" img="skills-supabase.svg" /></div>
+          <div data-aos="fade-up" data-aos-delay="600"><Skill title="Firebase" img="skills-firebase.svg" /></div>
           <div data-aos="fade-up" data-aos-delay="650"><Skill title="GitHub" img="skills-github.svg" /></div>
           <div data-aos="fade-up" data-aos-delay="700"><Skill title="Figma" img="skills-figma.svg" /></div>
           <div data-aos="fade-up" data-aos-delay="750"><Skill title="Docker" img="skills-docker.svg" /></div>
