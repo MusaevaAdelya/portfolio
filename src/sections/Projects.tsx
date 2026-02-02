@@ -47,12 +47,12 @@ function Projects() {
               figmaLink="https://www.figma.com/design/E3eRxbxnalxvaRLz9Et9c4/Kanban-board?node-id=0-1&t=tQyEcNVA09Z5QSYu-1"
             />
           </div>
-          <div data-aos="fade-up" data-aos-delay="0">
+          <div data-aos="fade-up" data-aos-delay="50">
             <ProjectCard
               img="project-guv.png"
               title="Gewinn- und Verlustrechnung"
               description="A profit and loss app that visualizes income and expenses with charts and summaries over a selected period"
-              skills={["TypeScript", "React", "Tailwind"]}
+              skills={["TypeScript", "React", "Tailwind", "Supabase"]}
               githubLink="https://github.com/MusaevaAdelya/guv-app-electron"
               liveDemoLink="https://guv-app-electron.vercel.app/"
               figmaLink="https://www.figma.com/design/jX8kCrRqEcO32rBJ7puFBu/GuV?node-id=0-1&t=ukWLKDlqvp65z43I-1"
